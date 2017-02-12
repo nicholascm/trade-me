@@ -15,6 +15,7 @@ namespace TradeMe.Controllers
 
         public IActionResult About()
         {
+            System.Diagnostics.Debug.WriteLine("Hello, world");
             ViewData["Message"] = "Your application description page.";
 
             return View();
